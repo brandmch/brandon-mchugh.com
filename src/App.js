@@ -1,5 +1,5 @@
 import './App.css';
-import pic from './Screenshot_20220514-121146_Message+.jpg';
+import pic from './Screenshot_20220514-121146_Message+.png';
 
 function App() {
   return (
