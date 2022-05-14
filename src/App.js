@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h3>
-          Website coming soon!
+          Website is undergoing maintenance!
         </h3>
         <small>-Brandon McHugh</small>
         <p>For now, here is a picture of my dog, Savannah.</p>
