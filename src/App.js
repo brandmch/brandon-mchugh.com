@@ -1,4 +1,5 @@
 import './App.css';
+import pic from './Screenshot_20220514-121146_Message+.jpg';
 
 function App() {
   return (
@@ -8,7 +9,11 @@ function App() {
           Website coming soon!
         </h3>
         <small>-Brandon McHugh</small>
+        <p>For now, here is a picture of my dog, Savannah.</p>
+        <img src={pic} />
       </header>
+
+
     </div>
   );
 }

@@ -24,14 +24,31 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.App-header>h3 {
+  margin-top: 10%;
 }
+
+.App-header>small {
+  margin-bottom: 10%;
+}
+
+.App-header>img {
+  height: 500px;
+}
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
