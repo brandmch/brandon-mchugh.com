@@ -1,5 +1,4 @@
 import React from "react";
-// import Express from "express";
 
 export default function Header() {
     return (
@@ -8,7 +7,7 @@ export default function Header() {
             <div className="links">
                 <a href="https://www.linkedin.com/in/mchugh-brandon/">LinkedIn</a>
                 <a href="https://github.com/brandmch">GitHub</a>
-                <a href="">Resume</a>
+                <a href="/resume">Resume</a>
             </div>
         </div>
     )
