@@ -1,5 +1,6 @@
 import './App.css';
-import pic from './savannah.jpg';
+import pics from './Images/images.js'
+import Header from './Components/header'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         </h3>
         <small>-Brandon McHugh</small>
         <p>For now, here is a picture of my dog, Savannah.</p>
-        <img src={pic} />
+        <img src={pics.savannahPic} />
       </header>
 
 
