@@ -13,6 +13,8 @@ body {
 }
 
 
+/* HEADER */
+
 .links {
   color: aliceblue;
   display: inline-flex;
@@ -31,6 +33,54 @@ body {
 .links>a:hover {
   color: blueviolet;
 }
+
+
+/* RESUME */
+
+.resume {
+  text-align: center;
+  color: aliceblue;
+}
+
+.resume-links {
+  color: aliceblue;
+  display: inline-flex;
+  column-gap: 100px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.resume-links>a:link {
+  color: aliceblue;
+}
+
+.resume-links>a:visited {
+  color: aliceblue;
+}
+
+.resume-links>a:hover {
+  color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
