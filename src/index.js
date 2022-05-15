@@ -8,8 +8,8 @@ import Maintenance_Alert from './Maintence_Alert'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Maintenance_Alert />
+    <App />
+    {/* <Maintenance_Alert /> */}
   </React.StrictMode>
 );
 

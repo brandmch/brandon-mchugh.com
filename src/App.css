@@ -1,17 +1,45 @@
+body {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
+  color: aliceblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header>h1 {
+  margin-top: 100px;
+  font-size: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.links {
+  color: aliceblue;
+  display: inline-flex;
+  column-gap: 100px;
+  font-size: 25px;
 }
+
+.links>a:link {
+  color: aliceblue;
+}
+
+.links>a:visited {
+  color: aliceblue;
+}
+
+.links>a:hover {
+  color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
 
 .App-header {
   background-color: #282c34;
@@ -23,8 +51,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-
 
 .App-header>h3 {
   margin-top: 10%;
@@ -54,3 +80,9 @@
     transform: rotate(360deg);
   }
 }
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
