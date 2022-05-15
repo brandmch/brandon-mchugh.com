@@ -14,7 +14,7 @@ root.render(
     <Router>
       <Routes>
         <Route path='/' element={<App />} />
-        <Route path='/resume' element={<Maintenance_Alert />} />
+        <Route path='/about_me' element={<Maintenance_Alert />} />
       </Routes>
 
     </Router>
