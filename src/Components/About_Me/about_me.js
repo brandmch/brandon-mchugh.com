@@ -3,6 +3,7 @@ import Education from "./education";
 import Projects from "./projects";
 import Skills from "./skills";
 import Work_Experience from "./work_experience";
+import MaintenanceAlert from '../../Maintence_Alert';
 
 
 export default function About_Me() {
@@ -22,16 +23,18 @@ export default function About_Me() {
                 </div>
             </header>
 
-            <div className='section'>
+            <MaintenanceAlert />
+
+            {/* <div className='section'>
                 <div className="left_column">
                     <Skills />
-                    <Projects />
-                </div>
-                <div className="right_column">
-                    <Work_Experience />
                     <Education />
                 </div>
-            </div>
+                <div className="right_column">
+                    <Projects />
+                    <Work_Experience />
+                </div>
+            </div> */}
             <div className="text-align">
                 <div className="footer">
                     <a href="https://www.linkedin.com/in/mchugh-brandon/" target="_blank">LinkedIn</a>

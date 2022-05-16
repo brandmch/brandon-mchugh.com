@@ -130,6 +130,10 @@ header {
   color: white;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .section {
   /* min-height: 100vh; */
   /* padding: 2em; */
@@ -153,6 +157,7 @@ header {
   width: 30%;
   margin-left: 3%;
   color: #282c34;
+  text-align: center;
 }
 
 .section .right_column {
@@ -160,6 +165,7 @@ header {
   width: 61%;
   margin-left: 3%;
   color: #282c34;
+  text-align: center;
 }
 
 .text-align {
