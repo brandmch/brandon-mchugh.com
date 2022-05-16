@@ -24,14 +24,10 @@ export default function About_Me() {
             </header>
 
             <div className='section'>
-                <div className="left_column">
-                    <Skills className='skills' />
-                    <Education className='education' />
-                </div>
-                <div className="right_column">
-                    <Projects className='projects' />
-                    <Work_Experience className='work_experience' />
-                </div>
+                <Skills />
+                <Projects />
+                <Work_Experience />
+                <Education />
             </div>
 
             <div className="text-align">
