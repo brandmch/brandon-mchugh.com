@@ -199,9 +199,12 @@ header {
 
 .projectContainer {
   text-align: left;
+  margin-left: 15px;
 }
 
-
+.projectContainer .info {
+  margin-left: 20px;
+}
 
 
 
