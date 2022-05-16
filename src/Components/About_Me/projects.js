@@ -1,6 +1,6 @@
 import React from 'react';
 import Project_Container from './projects_container';
-import data from '../../data.js/project_data'
+import data from '../../data/project_data'
 
 
 const projects = data.map(x => {

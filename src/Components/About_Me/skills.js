@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../../data.js/skills_data'
+import data from '../../data/skills_data'
 
 const skills = data.map(x => {
     return <div
