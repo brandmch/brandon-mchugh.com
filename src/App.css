@@ -1,5 +1,5 @@
 body {
-  background-color: #282c34;
+  background-color: wheat;
 }
 
 .App {
@@ -42,29 +42,6 @@ body {
   color: aliceblue;
 }
 
-.resume-links {
-  color: aliceblue;
-  display: inline-flex;
-  column-gap: 100px;
-  font-size: 25px;
-  text-align: center;
-  margin-top: 2%;
-}
-
-.resume-links>a:link {
-  color: aliceblue;
-}
-
-.resume-links>a:visited {
-  color: aliceblue;
-}
-
-.resume-links>a:hover {
-  color: blueviolet;
-}
-
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
 
@@ -93,7 +70,7 @@ header {
 }
 
 .container_solid {
-  background: white;
+  background: #282c34;
 
   /* position this container at the top of its parent element */
   top: 0;
@@ -121,19 +98,21 @@ header {
 }
 
 .container_solid .title_wrapper h1 {
-  /* the text background */
+  color: aliceblue;
+
+  /* the text background
   background: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?&q=85);
   background-size: 100vw auto;
-  background-position: center;
+  background-position: center; */
 
   /* clip the text is possible */
-  text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
+  /* text-fill-color: transparent; */
+  /* -webkit-text-fill-color: transparent;
   background-clip: text;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; */
 
   /* fallback text color */
-  color: black;
+  /* color: black; */
 }
 
 .container_image {
