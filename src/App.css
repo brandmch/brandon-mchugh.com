@@ -70,7 +70,7 @@ header {
 }
 
 .container_solid {
-  background: #282c34;
+  background-image: url('./Images/yellow_stone_copy.JPG');
 
   /* position this container at the top of its parent element */
   top: 0;
@@ -117,13 +117,13 @@ header {
 
 .container_image {
   /* Grab a free image from unsplash */
-  background-image: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(./Images/yellow_stone_copy.JPG);
   background-size: 100vw auto;
   background-position: center;
   background-attachment: fixed;
 
   /* position the second container below the first container */
-  top: 100vh;
+  top: 00vh;
 }
 
 .container_image .title_wrapper h1 {
@@ -131,10 +131,10 @@ header {
 }
 
 .section {
-  min-height: 100vh;
-  padding: 2em;
-  margin: auto;
-  max-width: 800px;
+  /* min-height: 100vh; */
+  /* padding: 2em; */
+  /* margin: auto; */
+  /* max-width: 800px; */
 }
 
 .section h2 {
