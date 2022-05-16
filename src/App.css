@@ -158,6 +158,8 @@ header {
   margin-top: 30vh;
   background-color: wheat;
   color: #282c34;
+  padding-bottom: 3%;
+
 }
 
 .skills .grid-container {
@@ -165,7 +167,7 @@ header {
   grid-template-columns: auto auto auto auto;
   column-gap: 0;
   row-gap: 5px;
-
+  margin-left: 35px;
 }
 
 .skills .grid-container .grid-item {
@@ -176,16 +178,19 @@ header {
 .projects {
   background-color: wheat;
   color: #282c34;
+  padding-bottom: 3%;
 }
 
 .work_experience {
   background-color: wheat;
   color: #282c34;
+  padding-bottom: 3%;
 }
 
 .education {
   background-color: wheat;
   color: #282c34;
+  padding-bottom: 3%;
 }
 
 .text-align {
@@ -229,7 +234,18 @@ header {
 }
 
 
+/* EDUCATION */
 
+.education_container {
+  display: flex;
+  align-items: baseline;
+  gap: 2%;
+  margin-left: 15px;
+}
+
+.education_container>h2 {
+  font-style: italic;
+}
 
 
 
