@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function Skills() {
     return (
-        <h1>Skills</h1>
+        <h1 className='underline'>Skills</h1>
     )
 }
