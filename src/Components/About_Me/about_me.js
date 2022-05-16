@@ -32,6 +32,13 @@ export default function About_Me() {
                     <Education />
                 </div>
             </div>
+            <div className="text-align">
+                <div className="footer">
+                    <a href="https://www.linkedin.com/in/mchugh-brandon/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/brandmch" target="_blank">GitHub</a>
+                    <a href="/">Home</a>
+                </div>
+            </div>
         </div>
     )
 }

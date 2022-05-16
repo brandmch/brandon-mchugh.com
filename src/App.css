@@ -137,6 +137,7 @@ header {
   /* max-width: 800px; */
   display: flex;
   height: 100vh;
+  margin-top: -8%;
 }
 
 .section h2 {
@@ -161,9 +162,30 @@ header {
   color: #282c34;
 }
 
+.text-align {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
+.footer {
+  color: aliceblue;
+  display: inline-flex;
+  column-gap: 100px;
+  font-size: 25px;
+}
 
+.footer>a:link {
+  color: aliceblue;
+}
 
+.footer>a:visited {
+  color: aliceblue;
+}
+
+.footer>a:hover {
+  color: blueviolet;
+}
 
 
 
