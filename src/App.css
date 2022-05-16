@@ -130,18 +130,12 @@ header {
   color: white;
 }
 
-.underline {
-  text-decoration: underline;
-}
-
 .section {
-  /* min-height: 100vh; */
-  /* padding: 2em; */
-  /* margin: auto; */
-  /* max-width: 800px; */
-  display: flex;
+  text-align: center;
   height: 100vh;
   margin-top: -8%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .section h2 {
@@ -152,20 +146,52 @@ header {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
-.section .left_column {
+/* .section .left_column {
   background-color: wheat;
   width: 30%;
   margin-left: 3%;
   color: #282c34;
   text-align: center;
+} */
+
+.sections_h1 {
+  font-size: 50px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-decoration: underline;
 }
 
-.section .right_column {
+.skills {
   background-color: wheat;
-  width: 61%;
-  margin-left: 3%;
   color: #282c34;
-  text-align: center;
+}
+
+.skills .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 0;
+  row-gap: 5px;
+
+}
+
+.skills .grid-container .grid-item {
+  font-size: 22px;
+  text-align: left;
+}
+
+.projects {
+  background-color: wheat;
+  color: #282c34;
+}
+
+.work_experience {
+  background-color: wheat;
+  color: #282c34;
+}
+
+.education {
+  background-color: wheat;
+  color: #282c34;
 }
 
 .text-align {
