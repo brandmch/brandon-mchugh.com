@@ -155,6 +155,7 @@ header {
 } */
 
 .sections_h1 {
+  font-size: 50px;
   padding-top: 2%;
   padding-bottom: 2%;
   text-decoration: underline;
@@ -163,6 +164,19 @@ header {
 .skills {
   background-color: wheat;
   color: #282c34;
+}
+
+.skills .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 0;
+  row-gap: 5px;
+
+}
+
+.skills .grid-container .grid-item {
+  font-size: 22px;
+  text-align: left;
 }
 
 .projects {
