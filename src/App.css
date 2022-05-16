@@ -97,7 +97,7 @@ header {
   font-weight: 900;
 }
 
-.container_solid .title_wrapper h1 {
+.container_solid .title_wrapper>h1 {
   color: aliceblue;
 
   /* the text background
@@ -126,7 +126,7 @@ header {
   top: 00vh;
 }
 
-.container_image .title_wrapper h1 {
+.container_image .title_wrapper>h1 {
   color: white;
 }
 
@@ -138,7 +138,7 @@ header {
   margin-right: 4%;
 }
 
-.section h2 {
+.section>h2 {
   font-family: 'Fraunces', serif;
 }
 
@@ -207,49 +207,26 @@ header {
 }
 
 
+/* WORK EXPERIENCE */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .footer {
-  color: aliceblue;
-  display: inline-flex;
-  column-gap: 100px;
-  font-size: 25px;
+.work_experience_container {
+  text-align: left;
+  margin-left: 15px;
 }
 
-.footer>a:link {
-  color: aliceblue;
+.work_experience_container .description {
+  margin-left: 20px;
 }
 
-.footer>a:visited {
-  color: aliceblue;
+.work_experience_container .top {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
 }
 
-.footer>a:hover {
-  color: blueviolet;
-} */
-
-
-
-
+.work_experience_container>h4 {
+  margin-left: 20px;
+}
 
 
 
