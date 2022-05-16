@@ -3,7 +3,7 @@ import Education from "./education";
 import Projects from "./projects";
 import Skills from "./skills";
 import Work_Experience from "./work_experience";
-import Maintence_Alert from '../../Maintence_Alert'
+
 
 export default function About_Me() {
     return (
@@ -23,10 +23,13 @@ export default function About_Me() {
             </header>
 
             <div className='section'>
-                <div>
-                    <div>
-                        <Maintence_Alert />
-                    </div>
+                <div className="left_column">
+                    <Skills />
+                    <Projects />
+                </div>
+                <div className="right_column">
+                    <Work_Experience />
+                    <Education />
                 </div>
             </div>
         </div>

@@ -135,6 +135,8 @@ header {
   /* padding: 2em; */
   /* margin: auto; */
   /* max-width: 800px; */
+  display: flex;
+  height: 100vh;
 }
 
 .section h2 {
@@ -145,7 +147,19 @@ header {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
+.section .left_column {
+  background-color: wheat;
+  width: 30%;
+  margin-left: 3%;
+  color: #282c34;
+}
 
+.section .right_column {
+  background-color: wheat;
+  width: 61%;
+  margin-left: 3%;
+  color: #282c34;
+}
 
 
 
