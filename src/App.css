@@ -46,7 +46,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
 
 header {
-  height: 125vh;
+  height: 100vh;
 }
 
 .container {
@@ -146,14 +146,6 @@ header {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
-/* .section .left_column {
-  background-color: wheat;
-  width: 30%;
-  margin-left: 3%;
-  color: #282c34;
-  text-align: center;
-} */
-
 .sections_h1 {
   font-size: 50px;
   padding-top: 2%;
@@ -161,7 +153,9 @@ header {
   text-decoration: underline;
 }
 
+/* Change skills margin-top to increase size of bottom */
 .skills {
+  margin-top: 30vh;
   background-color: wheat;
   color: #282c34;
 }
@@ -200,7 +194,38 @@ header {
   margin-bottom: 2%;
 }
 
-.footer {
+
+/* PROJECTS */
+
+.projectContainer {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer {
   color: aliceblue;
   display: inline-flex;
   column-gap: 100px;
@@ -217,7 +242,7 @@ header {
 
 .footer>a:hover {
   color: blueviolet;
-}
+} */
 
 
 
