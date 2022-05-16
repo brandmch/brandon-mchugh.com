@@ -23,13 +23,12 @@ export default function About_Me() {
                 </div>
             </header>
 
-            <MaintenanceAlert />
-            {/* <div className='section'>
+            <div className='section'>
                 <Skills />
                 <Projects />
                 <Work_Experience />
                 <Education />
-            </div> */}
+            </div>
 
             <div className="text-align">
                 <div className="footer">
