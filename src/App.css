@@ -160,6 +160,10 @@ header {
   text-align: center;
 }
 
+.skills {
+  color: #ffffff;
+}
+
 .section .right_column {
   background-color: wheat;
   width: 61%;

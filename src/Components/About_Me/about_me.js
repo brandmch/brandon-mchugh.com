@@ -23,18 +23,17 @@ export default function About_Me() {
                 </div>
             </header>
 
-            <MaintenanceAlert />
-
-            {/* <div className='section'>
+            <div className='section'>
                 <div className="left_column">
-                    <Skills />
-                    <Education />
+                    <Skills className='skills' />
+                    <Education className='education' />
                 </div>
                 <div className="right_column">
-                    <Projects />
-                    <Work_Experience />
+                    <Projects className='projects' />
+                    <Work_Experience className='work_experience' />
                 </div>
-            </div> */}
+            </div>
+
             <div className="text-align">
                 <div className="footer">
                     <a href="https://www.linkedin.com/in/mchugh-brandon/" target="_blank">LinkedIn</a>
