@@ -248,7 +248,32 @@ header {
 }
 
 
+/* MAINTENCE_ALERT */
 
+.maintenance_alert {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.maintenance_alert>h3 {
+  margin-top: 10%;
+}
+
+/*
+.maintenance_alert>small {
+  margin-bottom: 10%;
+}
+*/
+.maintenance_alert>img {
+  height: 500px;
+  margin-bottom: 10%;
+}
 
 
 
