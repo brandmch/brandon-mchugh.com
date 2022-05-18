@@ -97,6 +97,20 @@ header {
   font-weight: 900;
 }
 
+.button_arrow {
+  align-items: center;
+  /* display: grid; */
+  /* grid-template-columns: auto; */
+}
+
+.button_arrow>button {
+  width: fit-content;
+}
+
+.button_arrow>img {
+  height: 50px;
+}
+
 .container_solid .title_wrapper>h1 {
   color: aliceblue;
 
@@ -205,6 +219,7 @@ header {
 .projectContainer {
   text-align: left;
   margin-left: 15px;
+  gap: 0;
 }
 
 .projectContainer .info {

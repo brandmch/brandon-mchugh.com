@@ -4,6 +4,7 @@ import Projects from "./projects";
 import Skills from "./skills";
 import Work_Experience from "./work_experience";
 import MaintenanceAlert from '../../Maintence_Alert';
+import pics from '../../Images/images'
 
 
 
@@ -18,7 +19,7 @@ export default function About_Me() {
 
     function nextPicNum() {
         if (backgroundPic[1] === 15) {
-            setBackgroundPic(currentBackgroundPic => ["Images/pic", 1, ".JPG"])
+            setBackgroundPic(["Images/pic", 1, ".JPG"])
         } else {
             setBackgroundPic(currentBackgroundPic => ["Images/pic", currentBackgroundPic[1] + 1, ".JPG"])
         }
@@ -36,7 +37,10 @@ export default function About_Me() {
                             <a href="/home">Home</a>
                         </div>
                         <h1 id="h1">Brandon Lloyd McHugh</h1>
-                        <button type="button" onClick={nextPicNum}>Change Picture</button>
+                        <div className="button_arrow">
+                            <button type="button" onClick={nextPicNum}>Change Picture</button>
+                            {/* <img src={pics.downArrow} /> */}
+                        </div>
                     </div>
                 </div>
             </header>
