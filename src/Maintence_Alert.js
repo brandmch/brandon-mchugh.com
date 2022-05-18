@@ -5,7 +5,7 @@ import pics from './Images/images.js'
 function Maintenance_Alert() {
     return (
         <div className="App">
-            <header className="App-header">
+            <header className="maintenance_alert">
                 <h3>
                     Website is undergoing maintenance!
                 </h3>

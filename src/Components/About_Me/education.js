@@ -4,6 +4,7 @@ import data from '../../data/education_data';
 
 const education = data.map(x => {
     return <Education_Container
+        key={x.id}
         {...x} />
 })
 

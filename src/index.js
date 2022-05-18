@@ -15,6 +15,7 @@ root.render(
       <Routes>
         <Route path='/' element={<About_Me />} />
         <Route path='/about_me' element={<App />} />
+        <Route path='/home' element={<Maintenance_Alert />} />
       </Routes>
 
     </Router>

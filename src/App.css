@@ -70,7 +70,7 @@ header {
 }
 
 .container_solid {
-  background-image: url('./Images/yellow_stone_copy.JPG');
+  /* background-image: url('./Images/yellow_stone_copy.JPG'); */
 
   /* position this container at the top of its parent element */
   top: 0;
@@ -97,6 +97,20 @@ header {
   font-weight: 900;
 }
 
+.button_arrow {
+  align-items: center;
+  /* display: grid; */
+  /* grid-template-columns: auto; */
+}
+
+.button_arrow>button {
+  width: fit-content;
+}
+
+.button_arrow>img {
+  height: 50px;
+}
+
 .container_solid .title_wrapper>h1 {
   color: aliceblue;
 
@@ -117,7 +131,7 @@ header {
 
 .container_image {
   /* Grab a free image from unsplash */
-  background-image: url(./Images/yellow_stone_copy.JPG);
+  /* background-image: url(./Images/yellow_stone_copy.JPG); */
   background-size: 100vw auto;
   background-position: center;
   background-attachment: fixed;
@@ -205,6 +219,7 @@ header {
 .projectContainer {
   text-align: left;
   margin-left: 15px;
+  gap: 0;
 }
 
 .projectContainer .info {
@@ -248,7 +263,32 @@ header {
 }
 
 
+/* MAINTENCE_ALERT */
 
+.maintenance_alert {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.maintenance_alert>h3 {
+  margin-top: 10%;
+}
+
+/*
+.maintenance_alert>small {
+  margin-bottom: 10%;
+}
+*/
+.maintenance_alert>img {
+  height: 500px;
+  margin-bottom: 10%;
+}
 
 
 
