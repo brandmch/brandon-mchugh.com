@@ -70,7 +70,7 @@ header {
 }
 
 .container_solid {
-  background-image: url('./Images/yellow_stone_copy.JPG');
+  /* background-image: url('./Images/yellow_stone_copy.JPG'); */
 
   /* position this container at the top of its parent element */
   top: 0;
@@ -117,7 +117,7 @@ header {
 
 .container_image {
   /* Grab a free image from unsplash */
-  background-image: url(./Images/yellow_stone_copy.JPG);
+  /* background-image: url(./Images/yellow_stone_copy.JPG); */
   background-size: 100vw auto;
   background-position: center;
   background-attachment: fixed;
