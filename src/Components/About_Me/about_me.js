@@ -7,18 +7,22 @@ import MaintenanceAlert from '../../Maintence_Alert';
 
 
 
-// "../../Images/arches.JPG"
-
-
 export default function About_Me() {
 
-    const urll = "Images/pic1.JPG"
+    let [backgroundPic, setBackgroundPic] = React.useState(["Images/pic", 1, ".JPG"])
 
     const bgimg = {
-        backgroundImage: `URL(${urll})`
+        backgroundImage: `URL(${backgroundPic.join("")})`
 
     }
-    // document.getElementById(bgimg).style.backgroundImage
+
+    function nextPicNum() {
+        if (backgroundPic[1] === 15) {
+            setBackgroundPic(currentBackgroundPic => ["Images/pic", 1, ".JPG"])
+        } else {
+            setBackgroundPic(currentBackgroundPic => ["Images/pic", currentBackgroundPic[1] + 1, ".JPG"])
+        }
+    }
 
     return (
 
@@ -32,7 +36,7 @@ export default function About_Me() {
                             <a href="/home">Home</a>
                         </div>
                         <h1 id="h1">Brandon Lloyd McHugh</h1>
-                        <button type="button">HEY</button>
+                        <button type="button" onClick={nextPicNum}>Change Picture</button>
                     </div>
                 </div>
             </header>
