@@ -219,7 +219,6 @@ header {
 .projectContainer {
   text-align: left;
   margin-left: 15px;
-  gap: 0;
 }
 
 .projectContainer .info {

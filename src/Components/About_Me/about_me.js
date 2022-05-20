@@ -34,6 +34,7 @@ export default function About_Me() {
                         <div className="links">
                             <a href="https://www.linkedin.com/in/mchugh-brandon/" target="_blank" rel="noreferrer">LinkedIn</a>
                             <a href="https://github.com/brandmch" target="_blank" rel="noreferrer">GitHub</a>
+                            <a href="/meme_generator">Meme Generator</a>
                             <a href="/home">Home</a>
                         </div>
                         <h1 id="h1">Brandon Lloyd McHugh</h1>
