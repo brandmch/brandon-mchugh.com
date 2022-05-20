@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "./header";
+import Form from "./form";
 
 export default function Meme_Generator() {
     return (
-        <h1>Memes Cool</h1>
+        <div>
+            <Header />
+            <Form />
+        </div>
     )
 }
