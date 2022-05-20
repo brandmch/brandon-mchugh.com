@@ -113,30 +113,12 @@ header {
 
 .container_solid .title_wrapper>h1 {
   color: aliceblue;
-
-  /* the text background
-  background: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?&q=85);
-  background-size: 100vw auto;
-  background-position: center; */
-
-  /* clip the text is possible */
-  /* text-fill-color: transparent; */
-  /* -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text; */
-
-  /* fallback text color */
-  /* color: black; */
 }
 
 .container_image {
-  /* Grab a free image from unsplash */
-  /* background-image: url(./Images/yellow_stone_copy.JPG); */
   background-size: 100vw auto;
   background-position: center;
   background-attachment: fixed;
-
-  /* position the second container below the first container */
   top: 00vh;
 }
 
@@ -266,12 +248,10 @@ header {
 
 .maintenance_alert {
   background-color: #282c34;
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 
@@ -279,15 +259,49 @@ header {
   margin-top: 10%;
 }
 
-/*
-.maintenance_alert>small {
-  margin-bottom: 10%;
-}
-*/
 .maintenance_alert>img {
   height: 500px;
   margin-bottom: 10%;
 }
+
+
+/* MEME GENERATOR */
+
+/* HEADER */
+
+.header_meme_generator {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 115px;
+  padding: 20px;
+  color: aliceblue;
+  background: linear-gradient(45deg, rgb(138, 43, 226), rgb(138, 43, 226), red);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header_meme_generator>h1 {
+  font-size: 3em;
+  margin-right: auto;
+}
+
+.header_meme_generator>img {
+  height: 75px;
+  margin-right: 20px;
+}
+
+.header_meme_generator>h2 {
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
 
 
 
