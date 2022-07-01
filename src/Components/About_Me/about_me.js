@@ -5,6 +5,7 @@ import Skills from "./skills";
 import Work_Experience from "./work_experience";
 import MaintenanceAlert from "../../Maintence_Alert";
 import pics from "../../Images/images";
+import { Button } from "@mui/material";
 
 export default function About_Me() {
   let [backgroundPic, setBackgroundPic] = React.useState([
@@ -39,8 +40,8 @@ export default function About_Me() {
         >
           <div className="title_wrapper">
             <div className="links">
-              <button
-                type="button"
+              <Button
+                variant="contained"
                 className="title_button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -51,9 +52,9 @@ export default function About_Me() {
                 }}
               >
                 LinkedIn
-              </button>
-              <button
-                type="button"
+              </Button>
+              <Button
+                variant="contained"
                 className="title_button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -61,8 +62,9 @@ export default function About_Me() {
                 }}
               >
                 GitHub
-              </button>
-              <button
+              </Button>
+              <Button
+                variant="contained"
                 className="title_button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -70,8 +72,9 @@ export default function About_Me() {
                 }}
               >
                 Meme Generator
-              </button>
-              <button
+              </Button>
+              <Button
+                variant="contained"
                 className="title_button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -79,19 +82,9 @@ export default function About_Me() {
                 }}
               >
                 Home
-              </button>
+              </Button>
             </div>
             <h1 id="h1">Brandon Lloyd McHugh</h1>
-            <div className="button_arrow">
-              <button
-                className="title_button"
-                type="button"
-                onClick={nextPicNum}
-              >
-                Change Picture
-              </button>
-              {/* <img src={pics.downArrow} /> */}
-            </div>
           </div>
         </div>
       </header>
