@@ -42,6 +42,7 @@ export default function About_Me() {
             <div className="links">
               <Button
                 variant="contained"
+                color="#FFFFFF"
                 className="title_button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -55,6 +56,7 @@ export default function About_Me() {
               </Button>
               <Button
                 variant="contained"
+                color="#FFFFFF"
                 className="title_button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -65,6 +67,7 @@ export default function About_Me() {
               </Button>
               <Button
                 variant="contained"
+                color="#FFFFFF"
                 className="title_button"
                 onClick={(e) => {
                   e.preventDefault();
@@ -75,6 +78,7 @@ export default function About_Me() {
               </Button>
               <Button
                 variant="contained"
+                color="#FFFFFF"
                 className="title_button"
                 onClick={(e) => {
                   e.preventDefault();
