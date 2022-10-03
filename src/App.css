@@ -149,9 +149,9 @@ header {
 /* Change skills margin-top to increase size of bottom */
 
 .infoBox {
-  background-color: wheat;
   color: #282c34;
   padding-bottom: 3%;
+  box-shadow: 3px 3px 10px 1px rgba(131, 131, 131);
 }
 
 .skills {
